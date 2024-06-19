@@ -48,7 +48,7 @@ class _CreateUserState extends State<CreateUser> {
       print('Sending user data: $userData');
 
       final response = await http.post(
-        Uri.parse('http://10.0.2.2:3333/user'),
+        Uri.parse('https://unaspbank-5129d4f9bb49.herokuapp.com/user'),
         headers: <String, String>{
           'Content-Type': 'application/json; charset=UTF-8',
         },

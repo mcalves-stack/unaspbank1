@@ -24,7 +24,7 @@ import 'package:unaspbank/pages/scholarship/questions_screen_1.dart';
 import 'package:unaspbank/pages/scholarship/questions_screen_2.dart';
 import 'package:unaspbank/pages/scholarship/upload_screen.dart';
 import 'package:unaspbank/pages/scholarship/confirmation_screen.dart';
-//import 'package:unaspbank/pages/splash_screen.dart';
+import 'package:unaspbank/pages/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        //'/': (context) => const SplashScreen(),
+        '/': (context) => const SplashScreen(),
         '/home': (context) => const HomePage(),
         '/login': (context) => const LoginPage(),
         '/createUser': (context) => const CreateUser(),
@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
         '/CompletedresetPassword': (context) => const CompletedresetPassword(),
         // Novas Telas
         '/welcome': (context) => WelcomeScreen(),
-        '/': (context) => QuestionsScreen1(),
+        '/questions1': (context) => QuestionsScreen1(),
         '/questions2': (context) => QuestionsScreen2(),
         '/upload': (context) => UploadScreen(),
         '/confirmation': (context) => ConfirmationScreen(),
