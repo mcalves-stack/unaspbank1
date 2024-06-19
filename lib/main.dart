@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => const HomePage(),
         '/login': (context) => const LoginPage(),
         '/createUser': (context) => const CreateUser(),
-        '/': (context) => const HistoricoPage(),
+        '/historico': (context) => const HistoricoPage(),
         '/successSignup': (context) => const SucessSignup(),
         '/imageVerify': (context) => const ImageVerify(),
         '/sendDocSuccess': (context) => const SendDocSucess(),
@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
         '/CompletedresetPassword': (context) => const CompletedresetPassword(),
         // Novas Telas
         '/welcome': (context) => WelcomeScreen(),
-        '/questions1': (context) => QuestionsScreen1(),
+        '/': (context) => QuestionsScreen1(),
         '/questions2': (context) => QuestionsScreen2(),
         '/upload': (context) => UploadScreen(),
         '/confirmation': (context) => ConfirmationScreen(),
