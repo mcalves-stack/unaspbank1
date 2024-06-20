@@ -31,7 +31,7 @@ class _HistoricoPageState extends State<HistoricoPage> {
                         const SizedBox(height: 20),
                         const Padding(
                           padding: EdgeInsets.symmetric(horizontal: 20.0),
-                          child: Row(
+                          const child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
@@ -108,7 +108,7 @@ class _HistoricoPageState extends State<HistoricoPage> {
                         const SizedBox(height: 40),
                         const Padding(
                           padding: EdgeInsets.symmetric(horizontal: 20.0),
-                          child: Row(
+                          const child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
@@ -123,7 +123,7 @@ class _HistoricoPageState extends State<HistoricoPage> {
                               Text(
                                 'Limpar',
                                 style: TextStyle(
-                                  color: Color(0xFFF05022),
+                                  const color: Color(0xFFF05022),
                                   fontSize: 14,
                                   fontFamily: 'Poppins',
                                   fontWeight: FontWeight.w600,
