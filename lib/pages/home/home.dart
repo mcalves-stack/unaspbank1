@@ -569,7 +569,7 @@ class _HomePageState extends State<HomePage> {
                                           left: 50,
                                           top: 0,
                                           child: SizedBox(
-                                            width: 27.40,
+                                          const  width: 27.40,
                                             height: 13,
                                             child: Column(
                                               mainAxisSize: MainAxisSize.min,
